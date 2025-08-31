@@ -1,6 +1,6 @@
 [org/gnome/shell]
 favorite-apps=['org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'app.zen_browser.zen.desktop', 'org.gnome.Software.desktop']
-enabled-extensions=[ 'blur-my-shell@aunetx', 'tilingshell@ferradomenico.com', 'tilingshell@ferrarodomenico.com', 'gsconnect@andyholmes.github.io', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'Bluetooth-Battery-Meter@maniacx.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'AlphabeticalAppGrid@stuarthayhurst', 'azwallpaper@azwallpaper.gitlab.com' ]
+enabled-extensions=[ 'blur-my-shell@aunetx', 'tilingshell@ferrarodomenico.com', 'gsconnect@andyholmes.github.io', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'Bluetooth-Battery-Meter@maniacx.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'AlphabeticalAppGrid@stuarthayhurst' ]
 
 [org/gnome/shell/extensions/tilingshell]
 enable-autotiling=false
