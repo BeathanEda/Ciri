@@ -48,7 +48,10 @@ modules:
     install:
       - dconf-update-service
 
-  - type: gschema-overrides # set default settings
+  # - type: gschema-overrides # set default settings
+  #   include:
+  #     - zz1-extensions.gschema.override
+  #     - zz2-favorite-apps.gschema.override
 
   - type: default-flatpaks
     configurations:
