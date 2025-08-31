@@ -19,13 +19,11 @@ modules:
 
   - type: dnf
     repos:
-      files: 
-        - https://yum.fury.io/nushell/nushell.repo
       copr:
         - atim/starship
     install:
       packages:
-        - nushell
+        - fish
         - starship
         - micro
     remove:
