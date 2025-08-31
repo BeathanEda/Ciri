@@ -1,0 +1,2 @@
+# Default starship configuration file
+"$schema" = 'https://starship.rs/config-schema.json'
