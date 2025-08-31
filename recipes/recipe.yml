@@ -26,6 +26,7 @@ modules:
         - fish
         - starship
         - micro
+        - tealdeer
     remove:
       packages:
         - gnome-system-monitor 
@@ -34,15 +35,15 @@ modules:
 
   - type: gnome-extensions
     install:
-      - 7065 # Tilling Shell
-      - 3193 # Blur my Shell
-      - 6281 # Wallpaper Slideshow
-      - 779 # Clipboard Indicator
-      - 615 # AppIndicator and KStatusNotifierItem Support
-      - 6670 # Bluetooth Battery Meter
-      - 1319 # GSConnect
-      - 517 # Caffeine
-      - 4269 # Alphabetical App Grid
+      - 7065    # Tilling Shell
+      - 3193    # Blur my Shell
+      - 6281    # Wallpaper Slideshow
+      - 779     # Clipboard Indicator
+      - 615     # AppIndicator and KStatusNotifierItem Support
+      - 6670    # Bluetooth Battery Meter
+      - 1319    # GSConnect
+      - 517     # Caffeine
+      - 4269    # Alphabetical App Grid
 
   - type: bling
     install:
