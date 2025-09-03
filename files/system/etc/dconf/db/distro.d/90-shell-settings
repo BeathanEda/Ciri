@@ -1,6 +1,8 @@
 [org/gnome/shell]
 favorite-apps=['org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'app.zen_browser.zen.desktop', 'org.gnome.Software.desktop']
-enabled-extensions=[ 'blur-my-shell@aunetx', 'tilingshell@ferrarodomenico.com', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'Bluetooth-Battery-Meter@maniacx.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'AlphabeticalAppGrid@stuarthayhurst' ]
+
+enabled-extensions=[ 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'tilingshell@ferrarodomenico.com', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'Bluetooth-Battery-Meter@maniacx.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'AlphabeticalAppGrid@stuarthayhurst' ]
+disabled-extensions=['background-logo@fedorahosted.org']
 
 [org/gnome/shell/extensions/tilingshell]
 enable-autotiling=false
