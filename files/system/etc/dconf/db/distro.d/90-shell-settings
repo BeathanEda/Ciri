@@ -4,6 +4,18 @@ favorite-apps=['org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop', 'app.ze
 enabled-extensions=[ 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'tilingshell@ferrarodomenico.com', 'clipboard-indicator@tudmotu.com', 'caffeine@patapon.info', 'Bluetooth-Battery-Meter@maniacx.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'AlphabeticalAppGrid@stuarthayhurst' ]
 disabled-extensions=['background-logo@fedorahosted.org']
 
+[org/gnome/desktop/app-folders/folders/System]
+name='System'
+apps=['org.gnome.DiskUtility.desktop',
+      'com.mattjakeman.ExtensionManager.desktop',
+      'com.github.tchx84.Flatseal.desktop',
+      'yelp.desktop',
+      'htop.desktop',
+      'io.missioncenter.MissionCenter.desktop',
+      'nvtop.desktop',
+      'org.freedesktop.MalcontentControl.desktop',
+      'org.gnome.Tour.desktop']
+
 [org/gnome/shell/extensions/tilingshell]
 enable-autotiling=false
 enable-tiling-system-windows-suggestions=true
