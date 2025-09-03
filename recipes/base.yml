@@ -3,8 +3,10 @@
 modules:
   - type: files
     files:
+      - source: just
+        destination: /usr/share/ublue-os/just/
       - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+        destination: / # copies files/system/* into the image's root folder /
 
   - type: dnf
     repos:
@@ -52,6 +54,15 @@ modules:
           - org.videolan.VLC
           - com.mattjakeman.ExtensionManager
           - com.github.tchx84.Flatseal
+          # default gnome apps
+          - org.gnome.Contacts
+          - org.gnome.Calculator
+          - org.gnome.Snapshot
+          - org.gnome.Weather
+          - org.gnome.Papers
+          - org.gnome.clocks
+          - org.gnome.Loupe
+          - org.gnome.TextEditor
         remove:
           - org.gnome.Extensions
       - scope: user # Also add Flathub user repo, but no user packages
