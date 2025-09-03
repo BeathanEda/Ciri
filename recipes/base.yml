@@ -51,6 +51,7 @@ modules:
           - com.github.johnfactotum.Foliate
           - org.videolan.VLC
           - com.mattjakeman.ExtensionManager
+          - com.github.tchx84.Flatseal
         remove:
           - org.gnome.Extensions
       - scope: user # Also add Flathub user repo, but no user packages
