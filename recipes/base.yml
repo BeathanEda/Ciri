@@ -16,6 +16,8 @@ modules:
         - starship
         - micro
         - tealdeer
+        - gnome-shell-extension-gsconnect
+
     remove:
       packages:
         - gnome-system-monitor 
@@ -30,7 +32,7 @@ modules:
       - 779     # Clipboard Indicator
       - 615     # AppIndicator and KStatusNotifierItem Support
       - 6670    # Bluetooth Battery Meter
-      - 1319    # GSConnect
+      # - 1319    # GSConnect
       - 517     # Caffeine
       - 4269    # Alphabetical App Grid
 
