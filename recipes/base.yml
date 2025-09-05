@@ -22,21 +22,21 @@ modules:
 
     remove:
       packages:
-        - gnome-system-monitor 
+        - gnome-system-monitor
         - firefox
         - firefox-langpacks
 
   - type: gnome-extensions
     install:
-      - 7065    # Tilling Shell
-      - 3193    # Blur my Shell
-      - 6281    # Wallpaper Slideshow
-      - 779     # Clipboard Indicator
-      - 615     # AppIndicator and KStatusNotifierItem Support
-      - 6670    # Bluetooth Battery Meter
+      - 7065 # Tilling Shell
+      - 3193 # Blur my Shell
+      - 6281 # Wallpaper Slideshow
+      - 779 # Clipboard Indicator
+      - 615 # AppIndicator and KStatusNotifierItem Support
+      - 6670 # Bluetooth Battery Meter
       # - 1319    # GSConnect
-      - 517     # Caffeine
-      - 4269    # Alphabetical App Grid
+      - 517 # Caffeine
+      - 4269 # Alphabetical App Grid
 
   - type: bling
     install:
@@ -65,8 +65,11 @@ modules:
           - org.gnome.TextEditor
         remove:
           - org.gnome.Extensions
-      - scope: user # Also add Flathub user repo, but no user packages
-  
+
+  - type: brew
+    nofile-limits: true # increase nofile limits
+    brew-analytics: false # disable telemetry
+
   - type: fonts
     fonts:
       nerd-fonts:
