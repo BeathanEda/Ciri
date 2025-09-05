@@ -69,3 +69,19 @@ pipeline='pipeline_default'
 brightness=0.6
 sigma=30
 
+[org/gnome/Ptyxis/]
+default-profile-uuid='ec50b68e8ae130910fd3136768bab8ec'
+profile-uuids=['ec50b68e8ae130910fd3136768bab8ec']
+window-size=(uint32 80, uint32 24)
+
+[org/gnome/Ptyxis/Profiles/bf1d8b569920f1ae8501e3f968bab95e]
+custom-command='fish'
+label='Fish'
+opacity=1.0
+use-custom-command=true
+
+[org/gnome/Ptyxis/Profiles/ec50b68e8ae130910fd3136768bab8ec]
+custom-command='fish'
+label='Fish'
+opacity=1.0
+use-custom-command=true

@@ -1,2 +1,5 @@
-# Default starship configuration file
 "$schema" = 'https://starship.rs/config-schema.json'
+
+[shell]
+disabled = false
+bash_indicator = ""
